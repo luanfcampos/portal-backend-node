@@ -1,0 +1,127 @@
+# === DEPENDÊNCIAS ===
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# === BUILD & DISTRIBUIÇÃO ===
+/build
+/dist
+*.tgz
+*.tar.gz
+
+# === VARIÁVEIS DE AMBIENTE ===
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.local
+
+# === ARQUIVOS DE RUNTIME ===
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# === CACHE ===
+.npm
+.eslintcache
+.stylelintcache
+.cache/
+.parcel-cache/
+
+# === COVERAGE & TESTES ===
+coverage/
+*.lcov
+.nyc_output
+.coverage
+
+# === LOGS ===
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# === TEMPORÁRIOS ===
+.tmp
+.temp
+*.tmp
+*.temp
+
+# === IDEs & EDITORES ===
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*~
+
+# === SISTEMA OPERACIONAL ===
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# === PACKAGE MANAGERS ===
+# Yarn
+.yarn-integrity
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# === RUNTIME DATA ===
+.grunt
+lib-cov
+coverage
+.nyc_output
+.cache
+.eslintcache
+.stylelintcache
+
+# === OPCIONAL - DESCOMENTE SE NECESSÁRIO ===
+# Se você quiser ignorar package-lock.json (não recomendado para produção)
+# package-lock.json
+
+# Se você quiser ignorar yarn.lock (não recomendado para produção)
+# yarn.lock
+
+# === ARQUIVOS DE BACKUP ===
+*.bak
+*.backup
+*.orig
+
+# === CERTIFICADOS & KEYS ===
+*.pem
+*.key
+*.crt
+*.cert
+
+# === OUTROS ===
+.sass-cache/
+.connect.lock
+.grunt
+.lock-wscript
+build/Release
+.eslintrc.local
+.prettierrc.local
